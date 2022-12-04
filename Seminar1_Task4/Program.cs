@@ -11,6 +11,7 @@ if(imputNum1Line!=null&&imputNum2Line!=null&&imputNum3Line!=null)
     int number1 = int.Parse(imputNum1Line);
     int number2 = int.Parse(imputNum2Line);
     int number3 = int.Parse(imputNum3Line);
+// Проверяем условия, выводим данные в консоль
     if(number1 > number2)
     {
         if(number1 > number3)
